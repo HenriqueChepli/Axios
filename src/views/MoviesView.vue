@@ -48,7 +48,7 @@ const listMovies = async (genreId) => {
   font-family: 'Arial', sans-serif;
   background-color: #121212;
   color: #fff;
-  padding: 20px;
+  padding: 50px;
 }
 
 .page-title {
@@ -85,7 +85,7 @@ const listMovies = async (genreId) => {
 .movie-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  align-items: center;
   justify-content: center;
 }
 
@@ -96,11 +96,11 @@ const listMovies = async (genreId) => {
   overflow: hidden;
   box-shadow: 0 0 0.5rem #000;
   background-color: #1f1f1f;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .movie-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
 }
 
 .movie-card img {
